@@ -160,7 +160,7 @@ public class UserInterface {
     {
         /*
         To check whether the entered input name is valid.
-        Conditions are: The input should only consists of aplhabets and space.
+        Conditions are: The input should only consists of alphabets and space.
          */
         boolean wrongUserName=false;
         for(int i=0;i<userName.length();i++)
