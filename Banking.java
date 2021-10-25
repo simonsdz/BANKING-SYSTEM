@@ -189,9 +189,9 @@ public class UserInterface {
          */
         if(accNumber.length()!=6)
             return false;
-        char charA10=Character.toUpperCase(accNumber.charAt(0));
+        char charAt0=Character.toUpperCase(accNumber.charAt(0));
         char charAt1=Character.toUpperCase(accNumber.charAt(1));
-        if(charA10!='I' || charAt1!='D')
+        if(charAt0!='I' || charAt1!='D')
             return false;
         for(int i=2;i<accNumber.length();i++)
         {
