@@ -159,8 +159,8 @@ public class UserInterface {
     static boolean checkUserName(String userName)
     {
         /*
-        To check whether the entered input name is valid.
-        Conditions are: The input should only consists of alphabets and space.
+        To check whether the entered input name is valid. Conditions are: The input should only consists of alphabets and space. 
+        Even though there can be many accounts with same name, that's where account number comes in which is unique.
          */
         boolean wrongUserName=false;
         for(int i=0;i<userName.length();i++)
